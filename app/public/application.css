@@ -1,0 +1,22 @@
+html {
+  background: black;
+  color: black;
+  background-image: url('technology_wallpaper.jpg');
+  background-size: cover;
+}
+.box {
+  background: #008fae;
+  width: 350px;
+  height: 300px;
+  top: 150px;
+  left: 10px;
+  padding-top: 100px;
+  box-shadow: 10px 10px 5px #ffffff;
+  border: 3px solid black; 
+  border-radius: 25px;
+}
+h1, h3, form {
+  margin: auto;
+  width: 60%;
+  line-height: 2em;
+}

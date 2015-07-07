@@ -1,1 +1,23 @@
-<h1>My Skills</h1>
+<html>
+<head>
+  <link rel="stylesheet" href="/application.css">
+  <title>List of Skills</title>
+</head>
+
+<div class="box">
+  <body>
+    <a href="/" class="home">Home</a>
+    <h1>All Skills</h1>
+
+    <% @skills.each do |skill| %>
+    <h3><%= skill.id %>: <a href="/skills/<%= skill.id %>"><%= skill.title %></a></h3>
+    <a href="/skill/<%= skill.id %>/edit">edit</a>
+      <form action="/skills/<%= skill.id %>" method="POST">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" value="delete"/>
+    <% end %>
+    <body>
+
+</div>
+
+</html>

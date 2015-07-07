@@ -1,0 +1,53 @@
+---
+skills:
+- id: 4
+  title: Basic Ruby
+  description: 'working on it still '
+- id: 5
+  title: HTML/CSS
+  description: 'getting better '
+- id: 6
+  title: 'Time Management '
+  description: 'Not likely... '
+- id: 7
+  title: RDBMS
+  description: 'Should start this week '
+- id: 8
+  title: SQL & Sequel
+  description: 'Just learned the difference between the two '
+- id: 9
+  title: Bootstrap
+  description: 'Twitter CSS? '
+- id: 10
+  title: Angular
+  description: 'Haven''t touched JS yet '
+- id: 11
+  title: Building a Web App
+  description: 'It''s working.... But do you understand the logic my friend!? '
+- id: 12
+  title: Learning
+  description: 'This is actually tougher than it sounds '
+- id: 13
+  title: Basic layout and functionality
+  description: 'So, this is impossible. There are various conventions that I feel
+    aren''t articulated. '
+- id: 14
+  title: 'Technology in general '
+  description: "If only I had more time... \r\n:("
+- id: 15
+  title: Reading & Writing
+  description: I know <em>how</em> to read and write, I just don't <em>like</em> to
+    read and write - Charlie
+- id: 16
+  title: Deciding what I like
+  description: So far front-end is by FAR the most fun
+- id: 17
+  title: Working out DB logic
+  description: Quite the struggle in fact
+- id: 18
+  title: CSS
+  description: 'Keep dabbling '
+- id: 19
+  title: Slow the scroll in CSS
+  description: 'googling now '
+total: 19
