@@ -1,10 +1,19 @@
-<div class ="box">
-  <form action="/skills/<%= @skill.id %>" method="post">
-    <h3>Enter changes:</h3>
-    <input type='hidden' name='_method' value='PUT' />
-    <input type='text' name='skill[title]' value='<%= @skill.title %>'/><br/>
-    <textarea name='skill[description]'><%= @skill.description %></textarea><br/>
-    <input type='submit' value="Update"/>
-  </form>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Edit Screen</title>
+</head>
 
+<div class ="container">
+  <body>
+
+    <form action="/skills/<%= @skill.id %>" method="post">
+      <p>Enter changes:</p>
+      <input type='hidden' name='_method' value='PUT' />
+      <input type='text' name='skill[title]' value='<%= @skill.title %>'/><br/>
+      <textarea name='skill[description]'><%= @skill.description %></textarea><br/>
+      <input type='submit' value="Update"/>
+    </form>
+  </body>
 </div>
+</html>
